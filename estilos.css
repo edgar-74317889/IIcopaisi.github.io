@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background: #121831;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/*navigation */
+
+.area_sup_left {
+    width: 15%;
+    float: left;
+    display: block;
+    /* height: 100vh; */
+    padding-top: 20px;
+    background: url(logo.png) no-repeat center top / 170px;
+    background-position: center;
+}
+
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+/* nav left*/
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 2px;
+
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid white;
+
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/*SHOWCASE*/
+
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url(tecnologia-inteligencia-artificial-fondo-rostro_1017-18298.jpg)no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/*PRESENTACION*/
+
+.imagen {
+    float:left;
+    margin: 0 0 0 0;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+}
+
+/*NEWS CARD*/
+
+.img_redondo {
+    width: 225px;
+    height: 225px;
+    border-radius: 100%;
+    border: 4px solid rgb(255, 0, 0);
+    text-align: center;
+    background: transparent url(per.png) no-repeat bottom;
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulos123 {
+    text-align: center;
+    font: small-caps;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: medium solid #c0c0c0;
+    border-top: medium solid #c0c0c0;
+    text-shadow: 2px 2px 3px rgb(255, 251, 0);
+    padding: 12px 0px 10px 0px;
+    -moz-box-shadow: inset 0 15px 20px #f48304;
+    -webkit-box-shadow: inset 0 15px 20px #f48304;
+    box-shadow: inset 0 15px 20px #f48304;
+    border-radius: 30px;
+    width: 40%;
+    margin-left: 30%;
+    padding-left: 25%;
+}
+
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.news-cards img {
+    width: 100%;
+    height: 60%;
+}
+
+.news-cards h3 {
+    font-size: 20px;
+    margin: 10px o;
+}
+
+/*tablas*/
+.table1 {
+    background-color: #125372;
+    text-align: center;
+    font-family: Georgia;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-color: white;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.contetab2 {
+    background-color: #e1f1f6;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+/* ACTIVIDADES */
+
+.imagen2 {
+    float: left;
+    margin: 0 0 0 0;
+    /* padding: 7px 7px 7px 7px; */
+    padding-left: 7%;
+    width: 86%;
+    /* max-width: 750px; */
+    height: auto;
+}
+
+.fondo2 {
+    width: 100%;
+    text-align: center;
+    background: #0084ff;
+}
+
+ul {
+    list-style-type: disc;
+}
+.contenido_wh {
+    padding: 3px 25px 15px 25px;
+    margin: 3px 13px 13px 31px;
+    font-size: 18px;
+    font-family: "MS Serif", "New York", serif;
+    color: white;
+    text-align: justify;
+}
